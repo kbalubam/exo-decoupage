@@ -1,0 +1,168 @@
+#newsletter{
+  background-color: purple;
+  display: flex; 
+
+  
+}
+#newsletter img{
+  width: 50px;
+  
+  
+}
+.logo{
+  display: inline-block;
+  
+  
+}
+
+#champs_newsletter div{
+  display: flex;
+  justify-content: center; 
+  
+}
+
+
+#champs_newsletter{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+span{
+  color:white;
+  margin-right: 5px;
+}
+input{
+  border: 1px white solid;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+button{
+  background-color: rgb(100, 211, 100);
+  border: 1px white solid;
+  border-radius: 5px;
+  padding:5px;
+ 
+}
+
+
+nav{
+  
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+nav::before{
+  position: absolute;
+  background-color: black;
+  content: "";
+
+}
+
+.menu{
+  
+  width: 100%;
+ 
+  
+}
+
+nav>.menu>ul{
+  
+  display:flex;
+  list-style: none;
+  justify-content: space-evenly;
+ 
+  
+}
+a{
+ text-decoration: none;
+ color: black;
+ font-weight: bold;
+
+}
+
+
+.menu>ul>li:nth-last-of-type(1)>a{
+ 
+  display: inline-block;
+  
+}
+
+#contenu{
+
+width: 70%;
+margin-left:20%;
+
+}
+
+#contenu>h1{
+  
+  margin-left:100px;
+  margin-top:50px;
+  margin-bottom: 50px;
+  position: relative;
+  height: 70px;
+  font-size: 50px;
+}
+
+#contenu>h1::before{
+  content:"";
+  background-color: black;
+  width: 50px;
+  height: 1px;
+  position: absolute;
+  bottom: 0px;
+  margin-left:80px;
+  
+}
+
+#contenu>p{
+  padding: 20px;
+}
+
+#contenu>ul{
+  display: inline-block;
+  margin-right:600px;
+  
+}
+#contenu>ul>li{
+padding: 10px;
+}
+#contenu>h2{
+
+}
+footer{
+  height: 500px;
+  background-color: rgb(44, 42, 42);
+  
+}
+
+.section{
+  /* background-color: black; */
+  display: flex;
+  height: 400px;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+
+footer>section::before{
+  content: "";
+  background-color:white;
+  height: 2px;
+  margin-bottom:-100px;
+  width: 100%;
+  position: absolute;
+  
+}
+
+footer>img{
+  margin-left:500px;;
+}
+
+
