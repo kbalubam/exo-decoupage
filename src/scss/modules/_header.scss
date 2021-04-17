@@ -1,0 +1,33 @@
+header{
+    section{
+        display: flex;
+        background-color: purple;
+        align-items: center;
+        margin-top:0;
+        .logo{
+            height: 50px;
+            img{
+                height: 100%;
+            }
+        }
+        #champs_newsletter{
+            margin-left: 300px;
+            div{
+                span{
+                    color:white;
+                }
+                input{
+                    padding-top: 10px;
+                    border: 1px white solid;
+                    border-radius: 5px;
+                }
+                button{
+                    background-color: green;
+                    padding-top: 10px;
+                    border:1px green solid;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
